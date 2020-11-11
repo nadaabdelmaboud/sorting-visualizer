@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  background-color: black;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 45%;
+  margin-left: 10px;
+}
+#container div {
+  display: inline-block;
+  background-color: red;
+  border-left: 0.5px rgb(85, 6, 6) solid;
+  border-right: 0.5px rgb(85, 6, 6) solid;
+}
+.btns {
+  position: relative;
+  display: block;
+}
+button {
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: cadetblue;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.generator button {
+  width: 250px;
+  background-color: rgb(82, 17, 17);
+}
+#ex1Slider .slider-selection {
+  background: #bababa;
+}
+
+#ex1Slider {
+  color: white;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+#ex2Slider .slider-selection {
+  background: #bababa;
+}
+
+#ex2Slider {
+  color: white;
+  margin-top: 50px;
+  margin-left: 150px;
+}

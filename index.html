@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sorting Visualizer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+<body>
+    <div class="btns">
+    <button id="insertion" >Insertion</button>
+    <button id="selection">Selection</button>
+    <button id="quick">Random Quick</button>
+    <button id="merge">Merge</button>
+    <button id="bubble">Bubble</button>
+    <button id="heap">Heap</button>
+
+</div>
+    <div id="container"></div>
+    <div  class="generator btns">
+        <button  id="random-generator">Generate Random List</button>
+        <button id="sorted-generator">Generate Sorted List</button>
+    </div>
+
+    <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="10" data-slider-max="500" data-slider-step="1" data-slider-value="100"/>
+    <input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="10"/>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js" integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA==" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+
+</body>
+</html>
