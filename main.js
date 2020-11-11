@@ -387,7 +387,7 @@ async function generateBars(type=0){
     arr=[];
     if(N<100){vw=vw-4*N;}
     else{
-    vw=vw-2.8*N;
+    vw=vw-2.5*N;
     }
     container.innerHTML = '';
     let step=2;
