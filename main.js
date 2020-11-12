@@ -293,7 +293,12 @@ async function enableButtons(){
         btns[i].disabled=false;
 
     }
-  
+    btns = document.getElementsByClassName('generator')[0].getElementsByTagName('button');
+    for(let i=0;i<btns.length;i++){
+        
+        btns[i].disabled=false;
+        
+    }
 }
 async function insertionEvent(){
     if(canClick){
