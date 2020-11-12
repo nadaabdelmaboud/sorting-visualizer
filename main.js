@@ -371,7 +371,7 @@ async function randomEvent(){
 async function sortedEvent(){
     generateBars(1);
 }
-//end random quick
+
 function setEvents(){
     document.getElementById("insertion").addEventListener('click',insertionEvent);
     document.getElementById("selection").addEventListener('click',selectionEvent);
