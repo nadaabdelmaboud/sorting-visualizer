@@ -280,6 +280,12 @@ async function disableButtons(j){
         btns[i].disabled=true;
         }
     }
+   btns = document.getElementsByClassName('generator')[0].getElementsByTagName('button');
+    for(let i=0;i<btns.length;i++){
+        
+        btns[i].disabled=true;
+        
+    }
 }
 async function enableButtons(){
     let btns = document.getElementsByClassName('btns')[0].getElementsByTagName('button');
